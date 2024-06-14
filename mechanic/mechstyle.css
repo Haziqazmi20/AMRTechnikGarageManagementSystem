@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://3.bp.blogspot.com/-SUtzl24w85Y/WSJ-CBSO8ZI/AAAAAAAACM4/gNWv3pUrOA060c9D9NPiS-AomnPaL9vHACK4B/s1600/Mechanic.jpg');
+    background-size: cover;
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+h2{
+    text-align: left;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+/*NAVBAR*/
+header a {
+    text-decoration: none;
+  }
+  
+  header {
+    width: 100%;
+    top: 0;
+    left: 0; /* Ensures the header starts from the left edge */
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will space out the logo and navlist */
+    background: white; /* Set the background color to white */
+    padding: 20px 50px; /* Adjust padding as necessary */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds shadow for depth */
+    transition: all .35s ease;
+  }
+  
+  /* Ensure navlist takes up the space it needs */
+  .navlist {
+    list-style-type: none; /* Removes bullet points from list */
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+  }
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #333; /* Set the text color of the logo */
+}
+
+/* .navlist styles */
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: #333; /* Set the default text color of the navigation links */
+    font-weight: 600;
+    padding: 10px 25px;
+    font-size: 16px;
+    transition: color 0.36s ease; /* Updated transition property */
+}
+
+.navlist a:hover {
+    color: #4592a0; /* Set the text color to green on hover */
+}
+
+/* .header-icons styles */
+.header-icons i {
+    font-size: 32px;
+    color: #333; /* Set the icon color */
+    margin-right: 20px;
+    transition: color 0.36s ease; /* Updated transition property */
+}
+
+.header-icons i:hover {
+    color: #45a049; /* Set the icon color to green on hover */
+}

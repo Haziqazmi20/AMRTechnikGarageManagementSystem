@@ -1,0 +1,233 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://media.istockphoto.com/id/1165311626/photo/mechanic-using-a-ratchet-wrench.jpg?s=612x612&w=0&k=20&c=D4XCHr8BeR44hdJXS_Tp-9djQ7jWDKKkBWSKaqhuqK8=');
+    background-size: cover;
+}
+
+.loginadmin-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.manage-container{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.content{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.reg-container{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.update-container{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.delete-container{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.taskdashboard{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card-content{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2{
+    text-align: left;
+}
+
+.background{
+    color: #888888;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+header a {
+    text-decoration: none;
+  }
+  
+  header {
+    width: 100%;
+    top: 0;
+    left: 0; /* Ensures the header starts from the left edge */
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will space out the logo and navlist */
+    background: white; /* Set the background color to white */
+    padding: 20px 50px; /* Adjust padding as necessary */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds shadow for depth */
+    transition: all .35s ease;
+  }
+  
+  /* Ensure navlist takes up the space it needs */
+  .navlist {
+    list-style-type: none; /* Removes bullet points from list */
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Clearfix to clear the floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.active {
+    background-color: #044faa;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #333; /* Set the text color of the logo */
+}
+
+.navlist a {
+    color: #333; /* Set the default text color of the navigation links */
+    font-weight: 600;
+    padding: 10px 25px;
+    font-size: 16px;
+    transition: color 0.36s ease; /* Updated transition property */
+}
+
+.navlist a:hover {
+    color: #4592a0; /* Set the text color to green on hover */
+}
+
+/* .header-icons styles */
+.header-icons i {
+    font-size: 32px;
+    color: #333; /* Set the icon color */
+    margin-right: 20px;
+    transition: color 0.36s ease; /* Updated transition property */
+}
+
+.header-icons i:hover {
+    color: #45a049; /* Set the icon color to green on hover */
+}
+
+.dashboard {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dashboard a{
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Adjust the padding for better spacing */
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.appointment-table button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.appointment-table button:hover {
+    background-color: #45a049;
+}
